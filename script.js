@@ -4,7 +4,7 @@ function volume_sphere() {
 	
 	let r=Number(document.getElementById("radius").value);
 	let vol = (4/3) * Math.PI * Math.pow(r, 3);
-	document.getElementById("volume").value=vol;
+	document.getElementById("volume").value=vol.toFixed(4);
   
 };
 
